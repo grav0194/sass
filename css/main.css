@@ -328,64 +328,65 @@ footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
     min-height: 6rem;
     border: none;
     border-left: 1px solid #d4d4d4;
-    padding: 1rem;
+    padidng: 1rem;
+    margin: 0;
     background-color: #fff;
   }
   header nav > a:last-child {
     border-right: 1px solid #d4d4d4;
   }
-
-  section.focal, section.content1, section.content2 {
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  footer {
-    width: 700px;
-    margin: 0 auto;
-  }
-
-  .content2 .row {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .content2 .row .col {
-    flex-basis: 50%;
-  }
-
-  footer .row {
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-  footer .row > * {
-    flex-basis: 50%;
-  }
-  footer .row.last-row > * {
-    flex-basis: 100%;
-  }
-
-  section.content2 h4, section.content2 li {
-    font-size: 1.414rem;
-  }
-
-  footer .fa-circle {
-    color: #89C0C9;
-  }
-  footer .row:first-child .col:last-child {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-  }
-  footer h4[lang=ar] {
-    display: block;
-  }
-  footer h4[lang=de], footer h4[lang=en], footer h4[lang=ru] {
-    display: none;
-  }
 }
+section.focal, section.content1, section.content2 {
+  width: 700px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.content2 .row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.content2 .row .col {
+  flex-basis: 50%;
+}
+
+footer .row {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+footer .row > * {
+  flex-basis: 50%;
+}
+footer .row.last-row > * {
+  flex-basis: 100%;
+}
+
+section.content2 h4, section.content2 li {
+  font-size: 1.414rem;
+}
+
+footer .fa-circle {
+  color: #89C0C9;
+}
+footer .row:first-child .col:last-child {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+footer h4[lang=ar] {
+  display: block;
+}
+footer h4[lang=de], footer h4[lang=en], footer h4[lang=ru] {
+  display: none;
+}
+
 @media all and (min-width: 901px) and (max-width: 1400px) {
   header {
     width: 900px;
@@ -424,12 +425,12 @@ footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
     min-height: 2rem;
     border: none;
     border-left: 1px solid #d4d4d4;
-    padding: 0 1rem;
+    padidng: 0 1rem;
     margin: 1rem 0;
     background-color: #fff;
   }
-  header nav > a:first-child {
-    border-left: none;
+  header nav > a:last-child {
+    border-right: none;
   }
 
   section.focal, section.content1, section.content2 {
@@ -543,12 +544,12 @@ footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
     min-height: 2rem;
     border: none;
     border-left: 1px solid #d4d4d4;
-    padding: 0 1rem;
+    padidng: 0 1rem;
     margin: 1rem 0;
     background-color: #fff;
   }
-  header nav > a:first-child {
-    border-left: none;
+  header nav > a:last-child {
+    border-right: none;
   }
 
   section.focal, section.content1, section.content2 {

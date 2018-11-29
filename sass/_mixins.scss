@@ -1,0 +1,37 @@
+@mixin header($color){
+    display: inline;
+    color: $color;
+    vertical-align: baseline;
+    float: none;
+    font-size: 4rem;
+    line-height: 6.3968rem;
+    ~span{
+        float: none;
+        letter-spacing: 0.25rem;
+        font-size: 3.998rem;
+        text-align: left;
+    }
+}
+    
+@mixin nav($font, $min-height, $padding, $margin, $border-right){
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    > a {
+        flex-basis: 20%;
+        font-size: $font;
+        line-height: 2rem;
+//        min-height: 6rem;
+        min-height: $min-height;
+        border: none;
+        border-left: 1px solid $light-grey;
+//        padding: 1.0rem;
+        padidng: $padding;
+        margin: $margin;
+        background-color: $white;
+        &:last-child{
+//            border-right: 1px solid $light-grey;
+            border-right: $border-right;
+        }
+    }
+}
