@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.ba-header {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  height: 1rem;
+  width: 30%;
+  background-color: #3a5E63;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -38,14 +47,6 @@ ul {
   border-bottom: 1rem solid #89C0C9;
   border-top: 1rem solid #3a5E63;
   position: relative;
-}
-.bg-header:before, .bg-header:after {
-  content: "";
-  position: absolute;
-  bottom: -1rem;
-  height: 1rem;
-  width: 30%;
-  background-color: #3a5E63;
 }
 .bg-header:before {
   left: 0;
@@ -238,7 +239,8 @@ header h1 i.fa-lg ~ span {
   word-break: keep-all;
   overflow-wrap: normal;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #fff;
+  opacity: 0.8;
   background-image: url(../img/uk-icon.png);
   background-repeat: no-repeat;
   background-size: 1.5rem auto;
@@ -289,7 +291,7 @@ footer h4[lang=en], footer h4[lang=ar], footer h4[lang=ru] {
 /***********************************************
                 MEDIA QUERIES
 ***********************************************/
-@media all and (min-width: 701px) and (max-width: 900px) {
+@media screen and (min-width: 701px) and (max-width: 901px -1) {
   header {
     width: 700px;
     margin: 0 auto;
@@ -387,7 +389,7 @@ footer h4[lang=de], footer h4[lang=en], footer h4[lang=ru] {
   display: none;
 }
 
-@media all and (min-width: 901px) and (max-width: 1400px) {
+@media screen and (min-width: 901px) and (max-width: 1401px -1) {
   header {
     width: 900px;
     margin: 0 auto;
@@ -503,7 +505,7 @@ footer h4[lang=de], footer h4[lang=en], footer h4[lang=ru] {
     display: none;
   }
 }
-@media all and (min-width: 1401px) {
+@media screen and (min-width: 1401px) {
   header {
     width: 1400px;
     margin: 0 auto;

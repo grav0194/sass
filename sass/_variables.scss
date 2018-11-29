@@ -1,3 +1,6 @@
+$font-stack: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
+$font-stack-serif: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+
 $light-blue: #C7F7FF;
 $med-blue: #89C0C9;
 $dark-blue: #3a5E63;
@@ -9,6 +12,6 @@ $white: #fff;
 $light-grey:  #d4d4d4;
 $dark-grey:   #222;
 
-$font-stack: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif;
-
-$font-stack-serif: Cardo, ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+$bp-sml: 701px;
+$bp-med: 901px;
+$bp-lrg: 1401px;
