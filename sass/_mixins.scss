@@ -33,7 +33,7 @@
         min-height: $min-height;
         border: none;
         border-left: 1px solid $light-grey;
-        padidng: $padding;
+        padding: $padding;
         margin: $margin;
         background-color: $white;
         &:last-child{
@@ -53,7 +53,6 @@
         @content;
     }
 }
-
 
 @mixin lrg-breakpoint{
     @media screen and (min-width: #{$bp-lrg}){
